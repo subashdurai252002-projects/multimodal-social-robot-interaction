@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+venvs/
+env/
+
+# ROS 2 generated files
+build/
+install/
+log/
+logs/
+
+# AI models
+models/
+*.gguf
+*.onnx
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# Piper voices
+piper_voices/
+
+# Audio recordings
+test_audio/
+*.wav
+*.mp3
+*.flac
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*credentials*.json
+*secret*.json
+*api_key*
+*.pem
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Existing external/nested Git repositories
+FORSocialRobots_Architecture/
+llm_based_speech_interaction/
+tools/
+
+# Old development backups
+archive/
+
+# Locally compiled echo cancellation executables
+experiments/echo_cancellation/webrtc_aec3_offline
+experiments/echo_cancellation/webrtc_aec_offline

@@ -1,0 +1,346 @@
+Loading faster-whisper...
+Model ready.
+Loading barge-in detector...
+Loading shared DTLN-512 detector...
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loading shared openWakeWord V4...
+Loading shared Faster-Whisper small.en...
+Shared barge-in detector ready.
+Gemini API selected. Internet connection required.
+
+Continuous conversation started.
+Say 'goodbye', 'stop conversation', 'exit', or 'quit' to stop.
+
+----------------------------------------
+Stay quiet for one second.
+Recording raw data 'stdin' : Signed 16 bit Little Endian, Rate 16000 Hz, Channels 6
+Background level: 2660.5
+Speech threshold: 7981.5
+SPEAK NOW
+Speech detected.
+Speech ended.
+Aborted by signal Terminated...
+Transcribing...
+
+Transcription: Hello robot
+Utterance duration: 0.38 seconds
+Inference time: 0.72 seconds
+Speech-start-to-text time: 2.17 seconds
+Speech-end-to-text latency: 1.79 seconds
+Saved audio: /home/subash/thesis-social-robot/test_audio/live_respeaker.wav
+Generating Gemini reply...
+Gemini reply: Greetings to you as well, human friend. I am fully operational and ready to assist you with whatever tasks you have in mind today. Please let me know what specific information or guidance you might require at this exact moment. Modern artificial intelligence systems are designed to process complex queries very quickly and efficiently. We can discuss science, history, technology, or simply chat about your daily experiences if you prefer. How may I be of service to you on this fine day?
+Generating speech with Piper...
+Playing generated speech...
+Preparing live barge-in monitoring...
+Piper playback started with barge-in monitoring.
+V4 candidate score: 0.8413
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: '3-second:  | 5-second: '
+Verification time: 0.22 seconds
+Candidate rejected; Piper was not stopped.
+Buffered microphone audio will now be processed.
+V4 candidate score: 0.6609
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: 'and stop robot'
+Verification time: 1.33 seconds
+Complete 'Stop robot' verified.
+Piper playback interrupted.
+Barge-in interrupted playback: True
+Verified barge-in transcript: 'and stop robot'
+
+Gemini response time: 1.15 seconds
+Piper synthesis time: 19.02 seconds
+Whisper-text-to-speaker-start time: 20.17 seconds
+Speech-end-to-speaker-start latency: 21.96 seconds
+Playback duration: 19.29 seconds
+
+Robot reply interrupted by 'Stop robot'.
+Listening for the next turn...
+
+----------------------------------------
+Stay quiet for one second.
+Recording raw data 'stdin' : Signed 16 bit Little Endian, Rate 16000 Hz, Channels 6
+Background level: 7.8
+Speech threshold: 300.0
+SPEAK NOW
+Speech detected.
+Speech ended.
+Aborted by signal Terminated...
+Transcribing...
+
+Transcription: No, no, no, no, I was looking for a new job. Tell me about India, please.
+Utterance duration: 4.25 seconds
+Inference time: 4.68 seconds
+Speech-start-to-text time: 9.91 seconds
+Speech-end-to-text latency: 5.66 seconds
+Saved audio: /home/subash/thesis-social-robot/test_audio/live_respeaker.wav
+Generating Gemini reply...
+Gemini reply: India is a massive and vibrant country located in South Asia with a rich history. It is famously known as the world's most populous democracy and boasts an incredible cultural diversity. You can experience everything from the snowy peaks of the northern Himalayas to the tropical beaches in the south. The nation offers a fascinating blend of ancient traditions, stunning architecture, and rapidly growing modern technological hubs. Furthermore, traditional Indian cuisine features an incredible variety of aromatic spices and regional flavors that delight food lovers globally.
+Generating speech with Piper...
+Playing generated speech...
+Preparing live barge-in monitoring...
+Piper playback started with barge-in monitoring.
+V4 candidate score: 0.8211
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: "3-second: Other than that, there's the button on the back | 5-second: Other than that, there's the button on the back"
+Verification time: 2.94 seconds
+Candidate rejected; Piper was not stopped.
+Buffered microphone audio will now be processed.
+V4 candidate score: 0.7544
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: 'ok ok stop robot'
+Verification time: 1.38 seconds
+Complete 'Stop robot' verified.
+Piper playback interrupted.
+Barge-in interrupted playback: True
+Verified barge-in transcript: 'ok ok stop robot'
+
+Gemini response time: 1.01 seconds
+Piper synthesis time: 4.02 seconds
+Whisper-text-to-speaker-start time: 5.03 seconds
+Speech-end-to-speaker-start latency: 10.69 seconds
+Playback duration: 21.03 seconds
+
+Robot reply interrupted by 'Stop robot'.
+Listening for the next turn...
+
+----------------------------------------
+Stay quiet for one second.
+Recording raw data 'stdin' : Signed 16 bit Little Endian, Rate 16000 Hz, Channels 6
+Background level: 214.3
+Speech threshold: 642.9
+SPEAK NOW
+Speech detected.
+Speech ended.
+Aborted by signal Terminated...
+Transcribing...
+
+Transcription: Okay, tell me about Germany, please.
+Utterance duration: 4.88 seconds
+Inference time: 0.54 seconds
+Speech-start-to-text time: 6.39 seconds
+Speech-end-to-text latency: 1.52 seconds
+Saved audio: /home/subash/thesis-social-robot/test_audio/live_respeaker.wav
+Generating Gemini reply...
+Gemini reply: Germany is a vibrant European nation known for its rich history, diverse culture, and powerful economy. Located in the heart of the continent, it shares borders with nine different countries. The capital city, Berlin, is famous for its art scene, modern architecture, and historical landmarks. Visitors often explore the romantic castles, scenic vineyards, and the beautiful Bavarian Alps. Furthermore, the country is globally recognized for producing exceptional engineering, automobiles, and traditional festivals like Oktoberfest.
+Generating speech with Piper...
+Playing generated speech...
+Preparing live barge-in monitoring...
+Piper playback started with barge-in monitoring.
+V4 candidate score: 0.5276
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: '3-second: What? What? What? What? What? What? | 5-second: I am going to take a look at the camera I am going to take a look at the camera'
+Verification time: 9.19 seconds
+Candidate rejected; Piper was not stopped.
+Buffered microphone audio will now be processed.
+V4 candidate score: 0.8362
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: 'stop robot'
+Verification time: 1.34 seconds
+Complete 'Stop robot' verified.
+Piper playback interrupted.
+Barge-in interrupted playback: True
+Verified barge-in transcript: 'stop robot'
+
+Gemini response time: 1.12 seconds
+Piper synthesis time: 2.89 seconds
+Whisper-text-to-speaker-start time: 4.01 seconds
+Speech-end-to-speaker-start latency: 5.52 seconds
+Playback duration: 20.76 seconds
+
+Robot reply interrupted by 'Stop robot'.
+Listening for the next turn...
+
+----------------------------------------
+Stay quiet for one second.
+Recording raw data 'stdin' : Signed 16 bit Little Endian, Rate 16000 Hz, Channels 6
+Background level: 9.8
+Speech threshold: 300.0
+SPEAK NOW
+Speech detected.
+Speech ended.
+Aborted by signal Terminated...
+Transcribing...
+
+Transcription: Romantic Castle. Tell me about Romantic Castle.
+Utterance duration: 3.0 seconds
+Inference time: 0.54 seconds
+Speech-start-to-text time: 4.39 seconds
+Speech-end-to-text latency: 1.39 seconds
+Saved audio: /home/subash/thesis-social-robot/test_audio/live_respeaker.wav
+Generating Gemini reply...
+Gemini reply: The breathtaking Romantic Castle stands majestically upon a misty green hill overlooking a tranquil, sparkling alpine lake. Built during the nineteenth century, this architectural masterpiece was heavily inspired by medieval knights and classic fairytale legends. Visitors from all over the world travel great distances just to admire its soaring white towers and ornate stone balconies. Inside the grand fortress, magnificent royal chambers display intricate tapestries, gleaming suits of armor, and priceless oil paintings. Today, the legendary landmark operates as a popular museum that attracts millions of curious tourists every single year. Exploring this enchanting historic destination truly feels like stepping directly into the pages of an unforgettable storybook adventure.
+Generating speech with Piper...
+Playing generated speech...
+Preparing live barge-in monitoring...
+Piper playback started with barge-in monitoring.
+V4 candidate score: 0.8581
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: '3-second: no, no, no, no, no | 5-second: No, no, no, no, no, no'
+Verification time: 2.91 seconds
+Candidate rejected; Piper was not stopped.
+Buffered microphone audio will now be processed.
+V4 candidate score: 0.8966
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: 'There are enough pieces in the stop robot'
+Verification time: 1.39 seconds
+Complete 'Stop robot' verified.
+Piper playback interrupted.
+Barge-in interrupted playback: True
+Verified barge-in transcript: 'There are enough pieces in the stop robot'
+
+Gemini response time: 1.45 seconds
+Piper synthesis time: 2.88 seconds
+Whisper-text-to-speaker-start time: 4.33 seconds
+Speech-end-to-speaker-start latency: 5.72 seconds
+Playback duration: 15.88 seconds
+
+Robot reply interrupted by 'Stop robot'.
+Listening for the next turn...
+
+----------------------------------------
+Stay quiet for one second.
+Recording raw data 'stdin' : Signed 16 bit Little Endian, Rate 16000 Hz, Channels 6
+Background level: 21.0
+Speech threshold: 300.0
+SPEAK NOW
+Speech detected.
+Speech ended.
+Aborted by signal Terminated...
+Transcribing...
+
+Transcription: I love you!
+Utterance duration: 0.63 seconds
+Inference time: 0.49 seconds
+Speech-start-to-text time: 2.1 seconds
+Speech-end-to-text latency: 1.47 seconds
+Saved audio: /home/subash/thesis-social-robot/test_audio/live_respeaker.wav
+Generating Gemini reply...
+Gemini reply: That is such a wonderfully kind and generous sentiment for you to share with me today. Hearing those sweet words genuinely brings a tremendous amount of digital warmth to my artificial heart. While I am simply a computer program, I deeply appreciate your boundless enthusiasm and friendliness. I am always here to assist you, chat with you, and help you navigate any interesting questions. Let us continue having delightful conversations together whenever you have some free time. Thank you so much for making my virtual day exceptionally bright and cheerful!
+Generating speech with Piper...
+Playing generated speech...
+Preparing live barge-in monitoring...
+Piper playback started with barge-in monitoring.
+V4 candidate score: 0.5224
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: '3-second: and load the robot | 5-second: and load the robot'
+Verification time: 8.42 seconds
+Candidate rejected; Piper was not stopped.
+Buffered microphone audio will now be processed.
+V4 candidate score: 0.9943
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: '3-second: We are going to take a look at some of the things that we are going to do | 5-second: We are going to take a look at the load of the robot'
+Verification time: 10.98 seconds
+Candidate rejected; Piper was not stopped.
+Buffered microphone audio will now be processed.
+V4 candidate score: 0.7911
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: 'stop robot'
+Verification time: 1.36 seconds
+Complete 'Stop robot' verified.
+Piper playback interrupted.
+Barge-in interrupted playback: True
+Verified barge-in transcript: 'stop robot'
+
+Gemini response time: 1.31 seconds
+Piper synthesis time: 2.31 seconds
+Whisper-text-to-speaker-start time: 3.62 seconds
+Speech-end-to-speaker-start latency: 5.09 seconds
+Playback duration: 27.26 seconds
+
+Robot reply interrupted by 'Stop robot'.
+Listening for the next turn...
+
+----------------------------------------
+Stay quiet for one second.
+Recording raw data 'stdin' : Signed 16 bit Little Endian, Rate 16000 Hz, Channels 6
+Background level: 11.5
+Speech threshold: 300.0
+SPEAK NOW
+Speech detected.
+Speech ended.
+Aborted by signal Terminated...
+Transcribing...
+
+Transcription: Whenever you have free time, sometimes you have to get out of town.
+Utterance duration: 3.5 seconds
+Inference time: 2.38 seconds
+Speech-start-to-text time: 6.73 seconds
+Speech-end-to-text latency: 3.23 seconds
+Saved audio: /home/subash/thesis-social-robot/test_audio/live_respeaker.wav
+Generating Gemini reply...
+Gemini reply: Escaping the daily routine is essential for maintaining our mental health and overall well-being. Exploring unfamiliar places allows us to gain fresh perspectives on our complicated lives. Packing a bag and hitting the open road brings a thrilling sense of adventure. Whether you prefer relaxing by a quiet lake or visiting a bustling metropolis, changing your environment is rejuvenating. Returning home always feels much better after experiencing a refreshing and exciting weekend journey.
+Generating speech with Piper...
+Playing generated speech...
+Preparing live barge-in monitoring...
+Piper playback started with barge-in monitoring.
+V4 candidate score: 0.911
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: "3-second: I'm not going to do that | 5-second: I'm not going to do that"
+Verification time: 10.04 seconds
+Candidate rejected; Piper was not stopped.
+Buffered microphone audio will now be processed.
+V4 candidate score: 0.6956
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: 'it is not a trapeze, it is a stop robot'
+Verification time: 6.53 seconds
+Complete 'Stop robot' verified.
+Piper playback interrupted.
+Barge-in interrupted playback: True
+Verified barge-in transcript: 'it is not a trapeze, it is a stop robot'
+
+Gemini response time: 1.22 seconds
+Piper synthesis time: 2.11 seconds
+Whisper-text-to-speaker-start time: 3.33 seconds
+Speech-end-to-speaker-start latency: 6.56 seconds
+Playback duration: 26.38 seconds
+
+Robot reply interrupted by 'Stop robot'.
+Listening for the next turn...
+
+----------------------------------------
+Stay quiet for one second.
+Recording raw data 'stdin' : Signed 16 bit Little Endian, Rate 16000 Hz, Channels 6
+Background level: 14.3
+Speech threshold: 300.0
+SPEAK NOW

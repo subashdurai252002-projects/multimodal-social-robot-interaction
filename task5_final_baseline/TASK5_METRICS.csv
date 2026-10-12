@@ -1,0 +1,14 @@
+system,measurement,n,mean_seconds,median_seconds,min_seconds,max_seconds
+Gemini,llm_response,6,1.210,1.185,1.010,1.450
+Gemini,piper_synthesis,6,5.538,2.885,2.110,19.020
+Gemini,whisper_text_to_speaker_start,6,6.748,4.170,3.330,20.170
+Gemini,speech_end_to_speaker_start,6,9.257,6.140,5.090,21.960
+Gemini,playback_observed,6,21.767,20.895,15.880,27.260
+Gemini,successful_command_verification,6,2.222,1.370,1.330,6.530
+Gemini,rejected_candidate_verification,7,6.386,8.420,0.220,10.980
+Qwen,llm_response,5,1.240,1.200,0.560,1.920
+Qwen,piper_synthesis,5,3.394,2.150,1.240,6.520
+Qwen,whisper_text_to_speaker_start,5,4.634,3.350,1.790,8.440
+Qwen,speech_end_to_speaker_start,5,6.288,4.870,3.180,9.810
+Qwen,playback_observed,5,9.154,10.620,3.870,10.910
+Qwen,successful_command_verification,3,2.047,1.780,1.500,2.860

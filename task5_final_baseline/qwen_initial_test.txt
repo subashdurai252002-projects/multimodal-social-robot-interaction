@@ -1,0 +1,142 @@
+Loading faster-whisper...
+Model ready.
+Loading barge-in detector...
+Loading shared DTLN-512 detector...
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loading shared openWakeWord V4...
+Loading shared Faster-Whisper small.en...
+Shared barge-in detector ready.
+Warming local LLM...
+Local LLM ready. Warm-up time: 1.34 seconds
+
+Continuous conversation started.
+Say 'goodbye', 'stop conversation', 'exit', or 'quit' to stop.
+
+----------------------------------------
+Stay quiet for one second.
+Recording raw data 'stdin' : Signed 16 bit Little Endian, Rate 16000 Hz, Channels 6
+Background level: 160.4
+Speech threshold: 481.2
+SPEAK NOW
+Speech detected.
+Speech ended.
+Aborted by signal Terminated...
+Transcribing...
+
+Transcription: Tell me about social robots in these sentences.
+Utterance duration: 4.5 seconds
+Inference time: 1.11 seconds
+Speech-start-to-text time: 6.97 seconds
+Speech-end-to-text latency: 2.47 seconds
+Saved audio: /home/subash/thesis-social-robot/test_audio/live_respeaker.wav
+Generating LLM reply...
+LLM reply: Social robots are machines designed to interact socially with humans, mimicking natural behaviors and emotions.
+Generating speech with Piper...
+Playing generated speech...
+Preparing live barge-in monitoring...
+Piper playback started with barge-in monitoring.
+Barge-in interrupted playback: False
+
+LLM response time: 1.42 seconds
+Piper synthesis time: 5.52 seconds
+Whisper-text-to-speaker-start time: 6.94 seconds
+Speech-end-to-speaker-start latency: 9.4 seconds
+Playback duration: 10.87 seconds
+
+Robot reply finished.
+Listening for the next turn...
+
+----------------------------------------
+Stay quiet for one second.
+Recording raw data 'stdin' : Signed 16 bit Little Endian, Rate 16000 Hz, Channels 6
+Background level: 54.4
+Speech threshold: 300.0
+SPEAK NOW
+Speech detected.
+Speech ended.
+Aborted by signal Terminated...
+Transcribing...
+
+Transcription: Tell me about social robots in far in 8 sentences.
+Utterance duration: 3.63 seconds
+Inference time: 0.51 seconds
+Speech-start-to-text time: 4.99 seconds
+Speech-end-to-text latency: 1.36 seconds
+Saved audio: /home/subash/thesis-social-robot/test_audio/live_respeaker.wav
+Generating LLM reply...
+LLM reply: Social robots are intelligent machines designed to interact socially, enhancing human interactions and providing companionship. They can understand emotions, communicate naturally, and assist in various tasks, making them versatile companions.
+Generating speech with Piper...
+Playing generated speech...
+Preparing live barge-in monitoring...
+Piper playback started with barge-in monitoring.
+V4 candidate score: 0.5232
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: 'stop robot.'
+Verification time: 1.5 seconds
+Complete 'Stop robot' verified.
+Piper playback interrupted.
+Barge-in interrupted playback: True
+Verified barge-in transcript: 'stop robot.'
+
+LLM response time: 1.92 seconds
+Piper synthesis time: 6.52 seconds
+Whisper-text-to-speaker-start time: 8.44 seconds
+Speech-end-to-speaker-start latency: 9.81 seconds
+Playback duration: 10.91 seconds
+
+Robot reply finished.
+Listening for the next turn...
+
+----------------------------------------
+Stay quiet for one second.
+Recording raw data 'stdin' : Signed 16 bit Little Endian, Rate 16000 Hz, Channels 6
+Background level: 51.9
+Speech threshold: 300.0
+SPEAK NOW
+Speech detected.
+Speech ended.
+Aborted by signal Terminated...
+Transcribing...
+
+Transcription: Tell me something interesting for in 8 sentences.
+Utterance duration: 3.13 seconds
+Inference time: 0.54 seconds
+Speech-start-to-text time: 4.65 seconds
+Speech-end-to-text latency: 1.52 seconds
+Saved audio: /home/subash/thesis-social-robot/test_audio/live_respeaker.wav
+Generating LLM reply...
+LLM reply: Sure, here's something interesting: Did you know that the shortest war in history lasted just 14 seconds?
+Generating speech with Piper...
+Playing generated speech...
+Preparing live barge-in monitoring...
+Piper playback started with barge-in monitoring.
+V4 candidate score: 0.8443
+Collecting one trailing second...
+V4 candidate found. Piper continues speaking.
+Microphone capture continues during verification.
+Running exact-command verification...
+Whisper verification: 'starting speech pipe pipe or live again stop robot'
+Verification time: 2.86 seconds
+Complete 'Stop robot' verified.
+Piper playback interrupted.
+Barge-in interrupted playback: True
+Verified barge-in transcript: 'starting speech pipe pipe or live again stop robot'
+
+LLM response time: 1.2 seconds
+Piper synthesis time: 2.15 seconds
+Whisper-text-to-speaker-start time: 3.35 seconds
+Speech-end-to-speaker-start latency: 4.87 seconds
+Playback duration: 9.5 seconds
+
+Robot reply finished.
+Listening for the next turn...
+
+----------------------------------------
+Stay quiet for one second.
+Recording raw data 'stdin' : Signed 16 bit Little Endian, Rate 16000 Hz, Channels 6
+Background level: 50.8
+Speech threshold: 300.0
+SPEAK NOW

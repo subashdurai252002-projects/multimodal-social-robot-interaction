@@ -390,7 +390,7 @@ Qwen demonstration command:
 
 ```bash
 source ~/thesis-social-robot/.venv-dtln-aec/bin/activate
-python -u ~/thesis-social-robot/speech_qwen_respeaker.py
+python -u ~/thesis-social-robot/src/speech_qwen_respeaker.py
 ```
 
 Gemini demonstration command:
@@ -400,7 +400,7 @@ source ~/thesis-social-robot/.venv-dtln-aec/bin/activate
 read -s -p "Gemini API key: " GEMINI_API_KEY
 echo
 export GEMINI_API_KEY
-python -u ~/thesis-social-robot/speech_gemini_respeaker.py
+python -u ~/thesis-social-robot/src/speech_gemini_respeaker.py
 ```
 
 Do not depend only on the live demonstration. Room acoustics, network access and CPU load can affect a single run. Keep the saved logs and metrics available as supporting evidence.

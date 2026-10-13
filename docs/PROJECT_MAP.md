@@ -2,23 +2,23 @@
 
 ## Start here
 
-The actively developed laptop speech-to-speech system consists of three files in the project root:
+The actively developed laptop speech-to-speech system consists of three files in `src/`:
 
 | Status | File | Purpose |
 |---|---|---|
-| CURRENT | `speech_gemini_respeaker.py` | Online Gemini conversation pipeline: ReSpeaker input, Whisper transcription, Gemini response, Piper output and barge-in control. |
-| CURRENT | `speech_qwen_respeaker.py` | Local Qwen/Ollama version of the same conversation pipeline. |
-| CURRENT | `barge_in_detector.py` | Shared DTLN-AEC, openWakeWord V4 and Faster-Whisper command-verification implementation. |
+| CURRENT | `src/speech_gemini_respeaker.py` | Online Gemini conversation pipeline: ReSpeaker input, Whisper transcription, Gemini response, Piper output and barge-in control. |
+| CURRENT | `src/speech_qwen_respeaker.py` | Local Qwen/Ollama version of the same conversation pipeline. |
+| CURRENT | `src/barge_in_detector.py` | Shared DTLN-AEC, openWakeWord V4 and Faster-Whisper command-verification implementation. |
 
 The protected Task 5 snapshot and thesis-ready report are in `task5_final_baseline/`.
 
 ## Runtime flow
 
 ```text
-speech_gemini_respeaker.py OR speech_qwen_respeaker.py
+src/speech_gemini_respeaker.py OR src/speech_qwen_respeaker.py
                          |
                          v
-               barge_in_detector.py
+               src/barge_in_detector.py
                          |
           +--------------+--------------+
           |              |              |
@@ -45,10 +45,13 @@ Do not edit a file in `task5_final_baseline/` during normal development. It is t
 | `tools/` | THIRD-PARTY/RESEARCH TOOLS | DTLN-AEC, openWakeWord training material, ReSpeaker support and WebRTC source. |
 | `.venv-stt/` | ENVIRONMENT | Original speech/Piper Python environment. |
 | `.venv-dtln-aec/` | ENVIRONMENT | Current integrated DTLN, openWakeWord and Whisper environment. |
-| `venvs/` | LEGACY ENVIRONMENT | Earlier Whisper CPU environment. Keep until dependency review. |
-| `FORSocialRobots_Architecture/` | RELATED PROJECT | Larger social-marketplace/robot architecture source tree. |
-| `llm_based_speech_interaction/` | RELATED PROJECT | Earlier ROS 2 speech-interaction project and logs. |
-| `__pycache__/` | GENERATED | Python bytecode cache; not source code. |
+| `archive/legacy_environments/` | LEGACY ENVIRONMENT | Earlier Whisper CPU environment retained for historical reference. |
+
+The unrelated reference repositories are stored outside this project in
+`~/thesis-reference-projects/`:
+
+- `FORSocialRobots_Architecture/`
+- `llm_based_speech_interaction/`
 
 ## Normal commands
 
@@ -61,30 +64,30 @@ source ~/thesis-social-robot/.venv-dtln-aec/bin/activate
 Run Gemini:
 
 ```bash
-python -u ~/thesis-social-robot/speech_gemini_respeaker.py
+python -u ~/thesis-social-robot/src/speech_gemini_respeaker.py
 ```
 
 Run Qwen:
 
 ```bash
-python -u ~/thesis-social-robot/speech_qwen_respeaker.py
+python -u ~/thesis-social-robot/src/speech_qwen_respeaker.py
 ```
 
 Check the active code without running it:
 
 ```bash
 python -m py_compile \
-  ~/thesis-social-robot/barge_in_detector.py \
-  ~/thesis-social-robot/speech_gemini_respeaker.py \
-  ~/thesis-social-robot/speech_qwen_respeaker.py
+  ~/thesis-social-robot/src/barge_in_detector.py \
+  ~/thesis-social-robot/src/speech_gemini_respeaker.py \
+  ~/thesis-social-robot/src/speech_qwen_respeaker.py
 ```
 
 ## Recommended learning order
 
 1. Read `task5_final_baseline/TASK5_REPORT.md` for the purpose and architecture.
-2. Read `speech_gemini_respeaker.py` to understand the complete conversation loop.
-3. Read `barge_in_detector.py` to understand echo cancellation and interruption.
-4. Compare `speech_qwen_respeaker.py` with Gemini to see the LLM-specific difference.
+2. Read `src/speech_gemini_respeaker.py` to understand the complete conversation loop.
+3. Read `src/barge_in_detector.py` to understand echo cancellation and interruption.
+4. Compare `src/speech_qwen_respeaker.py` with Gemini to see the LLM-specific difference.
 5. Consult `experiments/` only when documenting how the final design evolved.
 
 ## Safety rules
